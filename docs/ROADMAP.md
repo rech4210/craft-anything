@@ -1090,6 +1090,7 @@ Launch checklist (source-only first; signed installers can follow):
 - [x] README quick start for someone new: Rust version, Linux packages (as CI installs them),
       clone, run the app, `cargo install` the CLI, `doctor`, then a first rebuild
 - [ ] Follow the README quick start on a clean machine (Windows, and Linux or macOS)
+      — claimed: rech4210, branch docs/m4-readme-quickstart-windows
 - [x] CI runs on every pull request and push to `main` once the repository is public (skipped while
       it's private, so it costs nothing now): fmt, clippy, all tests with `--no-fail-fast`,
       layers, the tool list, schemas and the secret scan, plus the wasm32 check
